@@ -175,43 +175,40 @@ Thread.sleep(3000);
 		}		
 		@DataProvider(name ="data")
 		public  Object[][] testDataFiled(){
-			Object[][] data= new Object[4][3];
+			Object[][] data= new Object[5][3];
 			
 			
 			// Data for QA resume
 
 			data[0][0]="s.shankar2905@gmail.com";
 			data[0][1]="Robin@123";
-
 			data[0][2]=System.getProperty("user.dir")+"/resume/Uma_Shankar_QA_Engineer_Resume.docx";
-			
-
-			
-
 			
 			// Data for ProductAnalyst resume
 			data[1][0]="s.umashankar5552@gmail.com";
 			data[1][1]="Robin@123";
-
 			data[1][2]=System.getProperty("user.dir")+"/resume/Uma_Shankar_Resume.docx";
 
-
-			
-			//Data for IAM resume
+           //Data for IAM resume
 			data[2][0]="iamumashankar3@gmail.com";
 			data[2][1]="Robin@123";
-			data[2][2]=System.getProperty("user.dir")+"/Resume/Uma_Shankar_IAM_Engineer_Resume.docx";
+            data[2][2]=System.getProperty("user.dir")+"/Resume/Uma_Shankar_IAM_Engineer_Resume.docx";
+
 			
-			
-			// Buddy 
-			
+			// Buddy 			
 			data[3][0]="umabuddy5552@gmail.com";
 			data[3][1]="6361888970";
 			data[3][2]=System.getProperty("user.dir")+"/Resume/Reddy_resume.docx";
 			
+			
+			// Balu 
+			data[4][0]="iambalamurali4@gmail.com\r\n";
+			data[4][1]="Thinkbig@18\r\n";
+			data[4][2]=System.getProperty("user.dir")+"/Resume/Bala_Yadavalli_Resume.docx";
+			
 			return data;
 
-		}
+		}}
 		
 		
 		
@@ -219,5 +216,4 @@ Thread.sleep(3000);
 		
 
 
-}
 
