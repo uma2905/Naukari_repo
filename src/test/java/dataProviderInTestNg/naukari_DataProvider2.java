@@ -166,7 +166,7 @@ Thread.sleep(3000);
 		}
 	if(!isMismatched) {
 		System.out.println("Upload falied after Max attempts");
-		takeScreenShots("Final_Failure");
+		takeScreenShots("Final_Failure");	
 	}}
 		
 		@AfterMethod
@@ -175,7 +175,7 @@ Thread.sleep(3000);
 		}		
 		@DataProvider(name ="data")
 		public  Object[][] testDataFiled(){
-			Object[][] data= new Object[5][3];
+			Object[][] data= new Object[4][3];
 			
 			
 			// Data for QA resume
@@ -192,19 +192,12 @@ Thread.sleep(3000);
            //Data for IAM resume
 			data[2][0]="iamumashankar3@gmail.com";
 			data[2][1]="Robin@123";
-            data[2][2]=System.getProperty("user.dir")+"/Resume/Uma_Shankar_IAM_Engineer_Resume.docx";
-
+            data[2][2]=System.getProperty("user.dir")+"/resume/Uma_Shankar_IAM_Engineer_Resume.docx";
 			
-			// Buddy 			
-			data[3][0]="umabuddy5552@gmail.com";
-			data[3][1]="6361888970";
-			data[3][2]=System.getProperty("user.dir")+"/Resume/Reddy_resume.docx";
-			
-			
-			// Balu 
-			data[4][0]="iambalamurali4@gmail.com\r\n";
-			data[4][1]="Thinkbig@18\r\n";
-			data[4][2]=System.getProperty("user.dir")+"/Resume/Bala_Yadavalli_Resume.docx";
+             //		Balu 
+			data[4][0]="baluyadavalli4@gmail.com";
+			data[4][1]="Mahi@100194";
+			data[4][2]=System.getProperty("user.dir")+"/resume/Bala_Yadavalli_Resume.docx";
 			
 			return data;
 
