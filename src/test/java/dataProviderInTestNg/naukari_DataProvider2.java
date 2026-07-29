@@ -175,7 +175,7 @@ Thread.sleep(3000);
 		}		
 		@DataProvider(name ="data")
 		public  Object[][] testDataFiled(){
-			Object[][] data= new Object[4][3];
+			Object[][] data= new Object[5][3];
 			
 			
 			// Data for QA resume
