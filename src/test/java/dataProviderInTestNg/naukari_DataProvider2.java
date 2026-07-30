@@ -175,7 +175,7 @@ Thread.sleep(3000);
 		}		
 		@DataProvider(name ="data")
 		public  Object[][] testDataFiled(){
-			Object[][] data= new Object[5][3];
+			Object[][] data= new Object[4][3];
 			
 			
 			// Data for QA resume
@@ -195,9 +195,9 @@ Thread.sleep(3000);
             data[2][2]=System.getProperty("user.dir")+"/resume/Uma_Shankar_IAM_Engineer_Resume.docx";
 			
              //		Balu 
-			data[4][0]="baluyadavalli4@gmail.com";
-			data[4][1]="Mahi@100194";
-			data[4][2]=System.getProperty("user.dir")+"/resume/Bala_Yadavalli_Resume.docx";
+			data[3][0]="baluyadavalli4@gmail.com";
+			data[3][1]="Mahi@100194";
+			data[3][2]=System.getProperty("user.dir")+"/resume/Bala_Yadavalli_Resume.docx";
 			
 			return data;
 
