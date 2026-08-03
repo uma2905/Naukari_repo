@@ -6,7 +6,7 @@
       <class name="dataProviderInTestNg.naukari_DataProvider2">
         <methods>
           <include name="closeBrowser"/>
-          <include name="naukariUpdate" invocation-numbers="3 4"/>
+          <include name="naukariUpdate"/>
         </methods>
       </class> <!-- dataProviderInTestNg.naukari_DataProvider2 -->
     </classes>
